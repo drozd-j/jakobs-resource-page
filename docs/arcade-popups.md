@@ -55,3 +55,17 @@ return {
 }
 ```
 The end result is a simple, clean line chart showing stream height over the past 30 days. This chart has a built-in hover effect for users to explore height through time. Notice the `altText` property that has been included in an effort to make this COTS solution more accessible.
+
+<figure markdown="span">
+  ![Line Chart Output](assets/images/arcade-linechart.png)
+  <figcaption>Arcade output</figcaption>
+</figure>
+<figure markdown="span">
+  ![Line Chart Output](assets/images/arcade-linechart-hover.png)
+  <figcaption>Nice hover effect</figcaption>
+</figure>
+<figure markdown="span">
+  ![Line Chart Output](assets/images/arcade-linechart-alt.png)
+  <figcaption>Screen reader-friendly</figcaption>
+</figure>
+:fire:
