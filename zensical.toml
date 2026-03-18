@@ -73,6 +73,9 @@ nav = [
 # Section for configuring theme options
 # ----------------------------------------------------------------------------
 [project.theme]
+feature = [
+    "content.code.annotate"
+]
 
 # change this to "classic" to use the traditional Material for MkDocs look.
 #variant = "classic"
