@@ -254,6 +254,26 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-chart-area" viewBox="0 0 24 24"><path d="M3 3v16a2 2 0 0 0 2 2h16"/><path d="M7 11.207a.5.5 0 0 1 .146-.353l2-2a.5.5 0 0 1 .708 0l3.292 3.292a.5.5 0 0 0 .708 0l4.292-4.292a.5.5 0 0 1 .854.353V16a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1z"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+    Building Charts with Arcade
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="././" class="md-nav__link md-nav__link--active">
         
   
@@ -272,6 +292,109 @@
   
 
       </a>
+      
+        
+
+
+<nav class="md-nav md-nav--secondary" aria-label="On this page">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On this page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#use-case" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Use Case
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Code
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dissecting-further" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dissecting Further
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Dissecting Further">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#data-setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Data Setup
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#looping-through" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Looping Through
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#output" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Output
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#end-result" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        End Result
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -356,6 +479,97 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On this page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#use-case" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Use Case
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Code
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dissecting-further" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dissecting Further
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Dissecting Further">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#data-setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Data Setup
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#looping-through" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Looping Through
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#output" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Output
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#end-result" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        End Result
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -379,7 +593,10 @@
 
 <h1 id="building-charts-with-arcade">Building Charts with Arcade<a class="headerlink" href="#building-charts-with-arcade" title="Permanent link">&para;</a></h1>
 <p>Communicative and effective map viewer popups are essential for any good map-centric COTS web app. Configuration specialists are accustomed to utilizing HTML, CSS, and ArcGIS Arcade to extend what's possible out of the box. Arcade isn't limited to just text formatting and conditional logic though - the expression language can be used to create complex chart visualizations<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup> from input data directly in the popups.</p>
-<p><div class="language-javascript highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Stream Gage Height Readings using Arcade</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-1"> 1</a></span>
+<h2 id="use-case">Use Case<a class="headerlink" href="#use-case" title="Permanent link">&para;</a></h2>
+<p>As part of the solution built for the <a href="https://mohic.mo.gov">Missouri Hydrology Information Center</a> in 2025, I built two web apps using Experience Builder to visualize stream gage data. In these apps, we wanted to build a line chart in the web map popup that could be docked in a <a href="https://doc.arcgis.com/en/experience-builder/latest/configure-widgets/feature-info-widget.htm">Feature Info widget</a>. Explore the flood-focused app <a href="https://experience.arcgis.com/experience/c5ac614abce2414b87ebcae926bc9b96">here</a> - click on a streamgage to see the chart powered by Arcade.</p>
+<h2 id="the-code">The Code<a class="headerlink" href="#the-code" title="Permanent link">&para;</a></h2>
+<div class="language-javascript highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Stream Gage Height Readings using Arcade</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-1"> 1</a></span>
 <span class="normal"><a href="#__codelineno-0-2"> 2</a></span>
 <span class="normal"><a href="#__codelineno-0-3"> 3</a></span>
 <span class="normal"><a href="#__codelineno-0-4"> 4</a></span>
@@ -467,7 +684,64 @@
 </span><span id="__span-0-43"><a id="__codelineno-0-43" name="__codelineno-0-43"></a><span class="w">  </span><span class="p">]</span>
 </span><span id="__span-0-44"><a id="__codelineno-0-44" name="__codelineno-0-44"></a><span class="p">}</span>
 </span></code></pre></div></td></tr></table></div>
-The end result is a simple, clean line chart showing stream height over the past 30 days. This chart has a built-in hover effect for users to explore height through time. Notice the <code>altText</code> property that has been included in an effort to make this COTS solution more accessible.</p>
+<h2 id="dissecting-further">Dissecting Further<a class="headerlink" href="#dissecting-further" title="Permanent link">&para;</a></h2>
+<h3 id="data-setup">Data Setup<a class="headerlink" href="#data-setup" title="Permanent link">&para;</a></h3>
+<p>I first set up an empty <code>attributes</code> dictionary and <code>thirFieldInfos</code> array that will store the needed values for my chart. I create a variable <code>thirDays</code> to serve as a where clause to filter my data later:</p>
+<p><code class="language-javascript highlight"><span class="kd">var</span><span class="w"> </span><span class="nx">thirDays</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">DateAdd</span><span class="p">(</span><span class="nx">currDate</span><span class="p">,</span><span class="w"> </span><span class="o">-</span><span class="mf">30</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;days&quot;</span><span class="p">)</span></code></p>
+<p>This example works with a related table data strucutre, in which I have a parent stream gage point hosted feature layer in ArcGIS Online with a related <code>Gage_Readings</code> table. The <code>Gage_Readings</code> table stores stream gage height values every hour. Therefore, I create a FeatureSet <code>fs</code> and filter it with my <code>thirDays</code> where clause I created earlier:</p>
+<p><code class="language-javascript highlight"><span class="kd">var</span><span class="w"> </span><span class="nx">thirFs</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">Filter</span><span class="p">(</span><span class="nx">fs</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;Time &gt;= @thirDays&#39;</span><span class="p">)</span></code></p>
+<h3 id="looping-through">Looping Through<a class="headerlink" href="#looping-through" title="Permanent link">&para;</a></h3>
+<p>I set up a <code>for</code> loop to iterate over each feature (or row) in the <code>thirFs</code> FeatureSet I've already filtered:</p>
+<p><code class="language-javascript highlight"><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kd">var</span><span class="w"> </span><span class="nx">item</span><span class="w"> </span><span class="ow">in</span><span class="w"> </span><span class="nx">thirFs</span><span class="p">)</span></code></p>
+<p>I read the stage height in feet of the current gage reading:</p>
+<p><code class="language-javascript highlight"><span class="kd">var</span><span class="w"> </span><span class="nx">thirStage</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">item</span><span class="p">[</span><span class="s2">&quot;Stage_ft&quot;</span><span class="p">]</span></code></p>
+<p>I set up a guard to remove null values in the streamgage network. This dataset inconsistently had values in the millions or -999 to indicate nulls:</p>
+<p><code class="language-javascript highlight"><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="nx">thirStage</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="mf">10000000</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="nx">thirStage</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="o">-</span><span class="mf">999</span><span class="p">)</span></code></p>
+<p>I format the reading's timestamp into month/day/four digit year hour:minute AM/PM format:</p>
+<p><code class="language-javascript highlight"><span class="kd">var</span><span class="w"> </span><span class="nx">thirTimex</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">Text</span><span class="p">(</span><span class="nx">item</span><span class="p">[</span><span class="s2">&quot;Time&quot;</span><span class="p">],</span><span class="w"> </span><span class="s2">&quot;M/DD/YYYY h:mm A&quot;</span><span class="p">)</span></code></p>
+<p>I map the formatted <code>thirTimex</code> string to the <code>thirStage</code> value with a key-value pair:</p>
+<p><code class="language-javascript highlight"><span class="nx">attributes</span><span class="p">[</span><span class="nx">thirTimex</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">thirStage</span></code></p>
+<p>Finally, I append the time string into the <code>thirFieldInfos</code> array I created earlier:</p>
+<p><code class="language-javascript highlight"><span class="nx">Push</span><span class="p">(</span><span class="nx">thirFieldInfos</span><span class="p">,</span><span class="w"> </span><span class="nx">thirTimex</span><span class="p">)</span></code></p>
+<h3 id="output">Output<a class="headerlink" href="#output" title="Permanent link">&para;</a></h3>
+<p>Why do we need a dictionary <em>and</em> an array in the first place? In the return statement, we need both an <code>attributes</code> dictionary that contains name/value pairs to supply the chart's data points AND a <code>fields</code> array that contains ordered keys referncing which attribtues to plot. The <code>fields</code> array goes inside the <code>mediaInfo</code> object.</p>
+<div class="language-javascript highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Media Popup Element Return</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-1-1"> 1</a></span>
+<span class="normal"><a href="#__codelineno-1-2"> 2</a></span>
+<span class="normal"><a href="#__codelineno-1-3"> 3</a></span>
+<span class="normal"><a href="#__codelineno-1-4"> 4</a></span>
+<span class="normal"><a href="#__codelineno-1-5"> 5</a></span>
+<span class="normal"><a href="#__codelineno-1-6"> 6</a></span>
+<span class="normal"><a href="#__codelineno-1-7"> 7</a></span>
+<span class="normal"><a href="#__codelineno-1-8"> 8</a></span>
+<span class="normal"><a href="#__codelineno-1-9"> 9</a></span>
+<span class="normal"><a href="#__codelineno-1-10">10</a></span>
+<span class="normal"><a href="#__codelineno-1-11">11</a></span>
+<span class="normal"><a href="#__codelineno-1-12">12</a></span>
+<span class="normal"><a href="#__codelineno-1-13">13</a></span>
+<span class="normal"><a href="#__codelineno-1-14">14</a></span>
+<span class="normal"><a href="#__codelineno-1-15">15</a></span>
+<span class="normal"><a href="#__codelineno-1-16">16</a></span>
+<span class="normal"><a href="#__codelineno-1-17">17</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1"></a><span class="w"> </span><span class="k">return</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2"></a><span class="w">  </span><span class="nx">type</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;media&quot;</span><span class="p">,</span>
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3"></a><span class="w">  </span><span class="nx">attributes</span><span class="o">:</span><span class="w"> </span><span class="nx">attributes</span><span class="p">,</span>
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4"></a><span class="w">  </span><span class="nx">title</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;&quot;</span><span class="p">,</span>
+</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5"></a><span class="w">  </span><span class="nx">mediaInfos</span><span class="o">:</span><span class="w"> </span><span class="p">[</span>
+</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6"></a><span class="w">    </span><span class="p">{</span>
+</span><span id="__span-1-7"><a id="__codelineno-1-7" name="__codelineno-1-7"></a><span class="w">      </span><span class="nx">type</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;linechart&quot;</span><span class="p">,</span>
+</span><span id="__span-1-8"><a id="__codelineno-1-8" name="__codelineno-1-8"></a><span class="w">      </span><span class="nx">altText</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Line chart showing recorded stream height in feet over the last 30 days.&quot;</span><span class="p">,</span>
+</span><span id="__span-1-9"><a id="__codelineno-1-9" name="__codelineno-1-9"></a><span class="w">      </span><span class="nx">title</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;&lt;p style=&#39;color:#2C486B;font-weight:300;margin:8px&#39;&gt;Last 30 Days&lt;/p&gt;&quot;</span><span class="p">,</span>
+</span><span id="__span-1-10"><a id="__codelineno-1-10" name="__codelineno-1-10"></a><span class="w">      </span><span class="nx">value</span><span class="o">:</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-1-11"><a id="__codelineno-1-11" name="__codelineno-1-11"></a><span class="w">        </span><span class="nx">fields</span><span class="o">:</span><span class="w"> </span><span class="nx">thirFieldInfos</span><span class="p">,</span>
+</span><span id="__span-1-12"><a id="__codelineno-1-12" name="__codelineno-1-12"></a><span class="w">        </span><span class="s2">&quot;colors&quot;</span><span class="o">:</span><span class="w"> </span><span class="p">[</span>
+</span><span id="__span-1-13"><a id="__codelineno-1-13" name="__codelineno-1-13"></a><span class="w">          </span><span class="p">[</span>
+</span><span id="__span-1-14"><a id="__codelineno-1-14" name="__codelineno-1-14"></a><span class="w">            </span><span class="mf">44</span><span class="p">,</span>
+</span><span id="__span-1-15"><a id="__codelineno-1-15" name="__codelineno-1-15"></a><span class="w">            </span><span class="mf">72</span><span class="p">,</span>
+</span><span id="__span-1-16"><a id="__codelineno-1-16" name="__codelineno-1-16"></a><span class="w">            </span><span class="mf">107</span>
+</span><span id="__span-1-17"><a id="__codelineno-1-17" name="__codelineno-1-17"></a><span class="w">          </span><span class="p">]...</span>
+</span></code></pre></div></td></tr></table></div>
+<p>Small detail - notice the <code>colors</code> array in the <code>mediaInfo</code> object. We use this to set the color of the chart in rgba format (I didn't need the alpha value in this example).</p>
+<h2 id="end-result">End Result<a class="headerlink" href="#end-result" title="Permanent link">&para;</a></h2>
+<p>The end result is a simple, clean line chart showing stream height over the past 30 days. This chart has a built-in hover effect for users to explore height through time. Notice the <code>altText</code> property that has been included in an effort to make this COTS solution more accessible.</p>
 <figure>
   <img alt="Line Chart Output" src="../assets/images/arcade-linechart.png" />
 <br />
@@ -483,7 +757,6 @@ The end result is a simple, clean line chart showing stream height over the past
 <br />
 <figcaption>Screen reader-friendly</figcaption>
 </figure>
-<p><img alt="🔥" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f525.svg" title=":fire:" /></p>
 <div class="footnote">
 <hr />
 <ol>

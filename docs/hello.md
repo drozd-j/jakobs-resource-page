@@ -4,7 +4,7 @@ icon: lucide/hand
 
 # Introduction
 
-Hello! This is Jakob's Resource Page. This site contains useful repeatable code snippets, patterns, and best practices picked up from project experience. Test.
+Hello! This is Jakob's Resource Page. This site contains useful repeatable code snippets, patterns, and best practices picked up from project experience.
 
 !!! note
     
