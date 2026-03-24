@@ -5,7 +5,7 @@ icon: lucide/chart-area
 # Building Charts with Arcade
 
 Communicative and effective map viewer popups are essential for any good map-centric COTS web app. Configuration specialists are accustomed to utilizing HTML, CSS, and ArcGIS Arcade to extend what's possible out of the box. Arcade isn't limited to just text formatting and conditional logic though - the expression language can be used to create complex chart visualizations[^1] from input data directly in the popups.
-[^1]: Supported chart types include `barchart`, `columnchart`, `linechart`, and `piechart`. See the web map spec docs [here](https://developers.arcgis.com/web-map-specification/objects/mediaInfo/#properties). `image` is also a supported `value` of the `type` property.
+[^1]: Supported chart types include `barchart`, `columnchart`, `linechart`, and `piechart`. See the web map docs [here](https://developers.arcgis.com/web-map-specification/objects/mediaInfo/#properties). `image` is also a supported `value` of the `type` property.
 
 ## Use Case
 As part of the solution built for the [Missouri Hydrology Information Center](https://mohic.mo.gov) in 2025, I built two web apps using Experience Builder to visualize stream gage data. In these apps, we wanted to build a line chart in the web map popup that could be docked in a [Feature Info widget](https://doc.arcgis.com/en/experience-builder/latest/configure-widgets/feature-info-widget.htm). Explore the flood-focused app [here](https://experience.arcgis.com/experience/c5ac614abce2414b87ebcae926bc9b96) - click on a streamgage to see the chart powered by Arcade.
