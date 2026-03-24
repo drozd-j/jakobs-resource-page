@@ -10,7 +10,7 @@ ArcGIS Dashboards provides some great charting abilities out of the box. However
 ![FLorence](https://www.medhakhurana.com/content/images/size/w1000/2024/09/image-1.png){ width=500 }
 Source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Nightingale-mortality.jpg?ref=medhakhurana.com)
 
-Sometimes people look for a way to add this impressive visualization into an ArcGIS Dashboard. While not currently supported with drag-and-drop configuration, my colleague Scott Aulen presented a way to create a Coxcomb chart using Arcade at Dev and Tech Summit 2026[^2].
+Sometimes people look for a way to add this impressive visualization into an ArcGIS Dashboard. While not currently supported with drag-and-drop configuration, my colleague [Scott Aulen](https://rscotta.github.io/) presented a way to create a Coxcomb chart using Arcade at Dev and Tech Summit 2026[^2].
 
 ## Code
 ``` javascript linenums="1" title="Coxcomb Chart in a Dashboard using Arcade"
