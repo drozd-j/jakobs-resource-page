@@ -141,5 +141,7 @@ HTML
 </div>
 ```
 
+*Add examples from Dev & Tech of coxcomb in action when avaialble*
+
 [^1]: M. Khurana: ["CoxComb Chart - How do you read and make it?"](https://www.medhakhurana.com/coxcomb-chart-how-to-read-and-make/)
 [^2]: The Github repo from this session, which includes the Coxcomb code, can be accessed [here](https://github.com/drozd-j/Unlocking-Config-Apps-DTS-2026/tree/main).
