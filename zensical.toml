@@ -47,6 +47,7 @@ Copyright &copy; 2026 The authors
 nav = [
 { "Introduction" = "hello.md" },
 { "Building Charts with Arcade" = "arcade-popups.md" },
+{ "Coxcomb Charts in Dashboards" = "coxcomb-dashboard.md" },
 { "Get started" = "index.md" },
 { "Markdown in 5min" = "markdown.md" },
 ]
